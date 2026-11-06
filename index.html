@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dearly: Privacy Policy</title>
+  <meta name="description" content="Dearly, the private journal for Windows: everything you write stays on your PC. We collect nothing.">
+  <style>
+    :root {
+      --bg: #FBF7F1; --ink: #2B2522; --muted: #6B5F58; --accent: #B4554A; --line: #E8DFD4; --card: #FFFDF9;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #1B1830; --ink: #F4EBDD; --muted: #C7BBD0; --accent: #F2A65A; --line: #3A3352; --card: #25213A; }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--ink);
+      font: 17px/1.7 Georgia, "Iowan Old Style", "Times New Roman", serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 56px 20px 72px; }
+    header { display: flex; align-items: center; gap: 12px; margin-bottom: 28px; }
+    .book { width: 36px; height: 36px; image-rendering: pixelated; }
+    .brand { font: 600 15px/1 "Segoe UI", system-ui, sans-serif; letter-spacing: .02em; color: var(--muted); }
+    h1 { font-size: 34px; line-height: 1.2; margin: 0 0 6px; }
+    .updated { color: var(--muted); font-size: 15px; margin: 0 0 28px; }
+    .short { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 10px; padding: 16px 20px; margin: 0 0 32px; }
+    h2 { font-size: 21px; margin: 36px 0 8px; }
+    ul { padding-left: 1.2em; }
+    li { margin: 6px 0; }
+    a { color: var(--accent); text-underline-offset: 3px; }
+    footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <svg class="book" viewBox="0 0 16 16" aria-hidden="true">
+      <rect x="3" y="2" width="9" height="11" fill="#2B1D1A"/><rect x="4" y="3" width="7" height="9" fill="#C8665A"/>
+      <rect x="4" y="3" width="1" height="9" fill="#A84E44"/><rect x="12" y="4" width="1" height="10" fill="#FFF5E6"/>
+      <rect x="6" y="5" width="1" height="1" fill="#FFF5E6"/><rect x="8" y="5" width="1" height="1" fill="#FFF5E6"/>
+      <rect x="6" y="6" width="3" height="1" fill="#FFF5E6"/><rect x="7" y="7" width="1" height="1" fill="#FFF5E6"/>
+    </svg>
+    <span class="brand">Dearly · a private journal for Windows</span>
+  </header>
+
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: 6 November 2026</p>
+
+  <p class="short"><strong>Short version: everything you write stays on your PC. We collect nothing.</strong></p>
+
+  <h2>What Dearly stores</h2>
+  <p>Your entries, moods, photos, voice notes and settings are stored <strong>only on your PC</strong>, encrypted
+  with AES-256. They're protected by your password, PIN or Windows Hello if you set one, and by
+  Windows for your account if you don't.</p>
+
+  <h2>What Dearly sends anywhere</h2>
+  <p><strong>Nothing of yours.</strong> Dearly has no account, no analytics, no tracking, no advertising, no crash
+  reporting, and no artificial intelligence. We (PaperKite) never receive your journal or any
+  information about how you use the app.</p>
+  <p>The only times Dearly uses the internet:</p>
+  <ul>
+    <li><strong>Microsoft Store:</strong> to show the price of Dearly Pro and process its purchase. This is handled
+    by Microsoft under the <a href="https://privacy.microsoft.com/privacystatement">Microsoft Privacy Statement</a>.
+    Dearly receives only whether Pro is owned.</li>
+    <li><strong>Sync (optional, off by default):</strong> if you turn it on, Dearly writes <strong>encrypted</strong> files into a
+    folder you choose (for example your OneDrive folder). Your own cloud app moves those files; Dearly
+    never contacts any server itself. The files can't be read without your password or recovery key.
+    (A PIN only works on the PC and Windows account where you set it up, so it can't be guessed from these files.)</li>
+    <li><strong>Backups to a folder you choose (optional):</strong> the same: encrypted files, in a folder you pick.</li>
+  </ul>
+
+  <h2>Exports</h2>
+  <p>When you export (TXT, Markdown, PDF, DOCX, HTML, JSON), Dearly creates readable copies in the folder
+  you choose. Keep them somewhere private.</p>
+
+  <h2>Children</h2>
+  <p>Dearly doesn't collect personal information from anyone, including children.</p>
+
+  <h2>Your choices</h2>
+  <p>You can export everything you wrote at any time, for free. Uninstalling Dearly removes the journal
+  from the app's folder; your automatic backups stay in your "Dearly Backups" folder until you delete them.</p>
+
+  <h2>Contact</h2>
+  <p>PaperKite. Questions about privacy: <a href="https://github.com/itsadithyakv/dearly-privacy/issues">open an issue here</a>.
+  Please don't include anything from your journal.</p>
+
+  <footer>© 2026 PaperKite · Dearly</footer>
+</main>
+</body>
+</html>
